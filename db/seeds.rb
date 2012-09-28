@@ -7,23 +7,33 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
-ActiveRecord::Base.connection.execute "INSERT INTO categories (name) VALUES ('Arte'),
- ('Artes plásticas'),
- ('Circo'),
- ('Comunidade'),
- ('Feito à mão'),
- ('Humor'),
- ('Quadrinhos'),
- ('Dança'),
- ('Design'),
- ('Eventos'),
- ('Moda'),
- ('Comida'),
- ('Cinema & Vídeo'),
- ('Jogos'),
- ('Jornalismo'),
- ('Música'),
- ('Fotografia'),
- ('Tecnologia'),
- ('Teatro'),
- ('Literatura');"
+#ActiveRecord::Base.establish_connection
+#ActiveRecord::Base.connection.tables.each do |table|
+  # MySQL
+  #ActiveRecord::Base.connection.execute("TRUNCATE #{table}")
+
+  # SQLite
+  # ActiveRecord::Base.connection.execute("DELETE FROM #{table}")
+#end
+
+Category.create!([{ :name => 'Arte' }, { :name => 'Circo' }])
+#ActiveRecord::Base.connection.execute "INSERT INTO categories (name) VALUES ('Arte'),
+# ('Artes plásticas'),
+ #('Circo'),
+ #('Comunidade'),
+ #('Feito à mão'),
+ #('Humor'),
+ #('Quadrinhos'),
+ #('Dança'),
+ #('Design'),
+ #('Eventos'),
+ #('Moda'),
+ #('Comida'),
+ #('Cinema & Vídeo'),
+ #('Jogos'),
+ #('Jornalismo'),
+ #('Música'),
+ #('Fotografia'),
+ #('Tecnologia'),
+ #('Teatro'),
+ #('Literatura');"
