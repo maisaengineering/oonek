@@ -1,0 +1,5 @@
+ar:
+  will_paginate:
+    next: "التالي »"
+    page_gap: "..."
+    previous: "« السابق"

@@ -1,0 +1,622 @@
+ar:
+  or: "أو"
+  newsletter_ok_header: "لقد اشتركت في قائمتنا البريدية!"
+  newsletter_ok_body: "بريدك الإلكتروني موجود الآن في قائمتنا البريدية، شكرا لاشتراكك معنا!"
+  newsletter_error_header: "عفوا! حدث خطأ ما."
+  newsletter_error_body: "لم نستطع إضافة بريدك الإلكتروني لقائمتنا البريدية. الرجاء المحاولة مرة أخرى."
+  views:
+    pagination:
+      next: "التالي"
+      last: "الأخير"
+      truncate: "..."
+  statistics:
+    backers:
+      subtitle: "الداعمون"
+    goal:
+      subtitle: "مجموع من %{total} "
+  project_by: "هذا المشروع بواسطة"
+  tell_about_this_back: "أطلع العالم على دعمك!"
+  share_my_backs: "استعرض المشروعات التي أدعمها في عونك!"
+  tell_about_this_project: "أخبر العالم عن مشروعك!"
+  share_my_projects: "استعرض مشروعاتي في عونك!"
+  count_backed_projects: "أدعم %{total} مشروع"
+  footer:
+    titles:
+      info: "معلومات مفيدة"
+      opendata: "إحصاءات"
+      social: "هل تحب عونك؟"
+      newsletter: "استقبل صحيفتنا الالكترونية"
+    stats:
+      backers: "الداعمون"
+      backs: "الدعم"
+      total_backed: "الدعم الكلي"
+      users: "المستخدمون"
+      funded_projects: "مشروعات ناجحة"
+      active_projects: "مشروعات جارية"
+    links:
+      how_works: "كيف تعمل الخدمة"
+      faq: "المساعدة"
+      terms: "شروط الاستخدام"
+      policy: "سياسة الخصوصية"
+      contact: "اتصل بنا"
+  main:
+    links:
+      selected: "استعرض المزيد من المشروعات المختارة"
+      expiring: "استعرض المزيد من المشروعات المنتهية"
+      recents: "استعرض المزيد من المشروعات الأخيرة"
+  sidebar:
+    titles:
+      blog: "المدونة"
+      facebook: "هل استمتعت بحسابنا على الفيسبوك؟"
+      twitter: "@oonkom"
+      newsletter: "هل تريد استقبال أخبارنا؟"
+      faq: "هل لديك أي شكوك؟"
+      schedule: "التقويم"
+    buttons:
+      newsletter: "اشترك"
+  sections:
+    selection:
+      title: "مختارات"
+    expiring:
+      title: منتهية
+    recents:
+      title: "مؤخرا"
+    partners:
+      title: "الشركاء"
+  "no": "لا"
+  "yes": "نعم"
+  accept_terms_html: "أقر بأنني قد قرأت ووافقت على الشروط %{link}."
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              not_found: "هذا البريد الالكتروني غير مسجل لدينا. من فضلك تأكد من صحة البريد أو قم بإنشاء حساب جديد."
+    attributes:
+      backer:
+        value: "القيمة"
+      project:
+        category: "التصنيف"
+        expires_at: "ينتهي في"
+        headline: "العنوان"
+        image_url: "رابط الصورة"
+        name: "الاسم"
+        user_id: "الرقم التعريقي للمستخدم"
+        video_url: "رابط الفيديو"
+      reward:
+        description: "الوصف"
+        maximum_backers: "أكبر الداعمين"
+        minimum_value: "أقل قيمة"
+      user:
+        address_city: "المدينة"
+        address_complement: "بقية العنوان"
+        address_neighbourhood: "الحي"
+        address_number: "الرقم"
+        address_state: "الدولة"
+        address_street: "الشارع"
+        address_zip_code: "الرمز البريدي"
+        cpf: "CPF"
+        current_password: "كلمة المرور الحالية"
+        email: "البريد الالكتروني"
+        full_name: "الاسم بالكامل"
+        name: "الاسم"
+        password: "كلمة المرور"
+        password_confirmation: "تأكيد كلمة المرور"
+        phone_number: "رقم الجوال"
+    models:
+      backer: "الداعم"
+      category: "التصنيف"
+      project: "المشروع"
+      reward: "المكافأة"
+  backer:
+    display_confirmed_at: "منذ %{time_ago}"
+    reward_must_be_from_project: "يجب أن تكون من نفس المشروع"
+    should_not_back_if_maximum_backers_been_reached: "وصلت إلى الحد الأقصى للداعمين."
+    value_must_be_at_least_rewards_value: "يجب أن يكون على الأقل %{minimum_value} "
+  backer_plural: "الداعمون"
+  backer_singular: "الداعم"
+  click_here: "انقر هنا"
+  clicking_here: "النقر هنا"
+  comment:
+    display_time: "منذ %{time_ago}"
+  credits:
+    index:
+      back_date: "تاريخ الدعم"
+      current_credits_html: "رصيدك الحالي هو <span id=\"current_credits\">%{credits}</span>."
+      important_html: "لديك </strong>180 يوما كحد أقصى من تاريخ الدفع <strong>لتطلب سحب المبلغ.إذا طلبت سحب المبلغ فإن قيمة ما تم دفعه لك سيتم خصمها من حسابك"
+      project: المشروع
+      refund_expration_date: "إمكانية السحب تنتهي في"
+      refunded: "تم سحب المبلغ من حسابك"
+      refunds_title: "المدفوعات التي يمكن سحبها"
+      request_refund: "طلب سحب المبلغ"
+      requested_refund: "تم طلب سحب المبلغ"
+      status: "الحالة"
+      title: "حساباتي"
+      value: "القيمة"
+    refund:
+      cannot_refund: "لا يمكن سحب هذا المبلغ."
+      error: "عفوا.حدث خطأ ما أثناء طلب سحب المبلغ."
+      no_credits: "لا تملك رصيدا كافيا لطلب سحب هذا المبلغ."
+      refunded: "لقد تم سحب المبلغ من قبل."
+      requested_refund: "لقد سبق وطلبت سحب هذا المبلغ من قبل."
+    title: "رصيدي"
+  credits_mailer:
+    request_refund_from:
+      subject: "طلب سحب بواسطة %{name}"
+      subject_html: "المستخدم %{name} طلب سحب لدعم %{backer_key} لمشروع %{backer_project} بقيمة %{backer_value} بواسطة %{backer_payment_service}."
+  curated_pages:
+    index:
+      title: "صفحات نقوم برعايتها"
+    show:
+      backed: "تم دعمها"
+      reached: "وصلت لـ"
+  devise:
+    confirmations:
+      confirmed: "تم التحقق من صحة حسابك. تم تسجيل دخول بنجاح."
+      send_instructions: "سوف تصلك رسالة عبر البريد الالكتروني لاستكمال تفعيل حسابك في غضون دفائق؟"
+      send_paranoid_instructions: "إذا كان بريدك الالكتروني مسجل لدينا فسوف تصلك رسالة في بريدك الالكتروني لاسترداد كلمة مرورك."
+    failure:
+      already_authenticated: "لقد قمت بتسجيل الدخول بالفعل."
+      inactive: "لم يتم تفعيل حسابك بعد."
+      invalid: "بريدك الالكتروني أو كلمة المرور غير صحيحة"
+      invalid_token: "رمز التحقق غير سليم"
+      locked: "لقد تم تعطيل حسابك."
+      timeout: "لقد أصبحت هذه الجلسة غير صالحة. الرجاء إعادة تسجيل الدخول."
+      unauthenticated: "للاستمرار..يجب تسجيل الدخول أو تسجيل عضوية جديدة معنا."
+      unconfirmed: "للاستمرار..يجب تفعيل حسابك أولا."
+    links:
+      forgot_password: "هل نسيت كلمة المرور؟"
+      sign_in: "تسجيل الدخول"
+      sign_up: "تسجيل عضوية جديدة"
+    mailer:
+      confirmation_instructions:
+        subject: "تعليمات تفعيل حسابك"
+      reset_password_instructions:
+        subject: "تعليمات استعادة كلمة المرور"
+        alt: "تعليمات استعادة كلمة المرور"
+      unlock_instructions:
+        subject: "تعليمات إعادة تفعيل حسابك بعد تعطيله"
+    omniauth_callbacks:
+      failure: "لم تتم المصادقة على طلبك من %{kind} بسبب \"%{reason}\"."
+      success: "تم المصادقة على طلبك بنجاح من %{kind} حساب."
+    passwords:
+      send_instructions: "ستصلك رسالة عبر بريدك الالكتروني مع تعليمات لكيفية استعادة كلمة المرور الخاصة بك."
+      send_paranoid_instructions: "إذا كان بريدك الالكتروني مسجلا لدينا فسيصلك رابط تستطيع من خلاله استعادة كلمة المرور."
+      updated: "تم تغيير كلمة مرورك بنجاح. لقد تم تسجيل دخولك الآن."
+      updated_not_active: "تم تغيير كلمة مرورك بنجاح."
+    registrations:
+      destroyed: "إلى اللقاء! لقد تم إلغاء حسابك بنجاح. نأمل أن نراك مجددا في وقت قريب."
+      inactive_signed_up: "لقد قمت بتسجيل عضوية جديدة بنجاح ولكننا لم نتمكن من إتمام تسجيل دخولك بسبب %{reason}."
+      reasons:
+        inactive: "غير فعال"
+        locked: "مغلق"
+        unconfirmed: "لم يتم تفعيله"
+      signed_up: "مرحبأ! لقد قمت بالتسجيل بنجاح!"
+      updated: "لقد قمت بتجديد حسابك بنجاح."
+    sessions:
+      new:
+        site_title: "تسجيل الدخول"
+        submit: "تسجيل الدخول"
+        title: "تسجيل الدخول باستخدام البريد الالكتروني"
+        login_title: "تسجيل الدخول"
+        login_subtitle: "إذا كنت تمتلك حسابا بالفعل"
+        register_title: "تسجيل عضوية جديدة"
+        register_subtitle: "استخدم حساب بريدك الالكتروني"
+        with_facebook: "تسجيل الدخول بحساب facebook الخاص بك"
+        with_facebook_subtitle: "طريقة سريعة لتسجيل الدخول"
+        with_another_social: "لا تمتلك حساب facebook?"
+        with_another_social_subtitle: "تسجيل الدخول بواسطة شبكة اجتماعية أخرى"
+      signed_in: "تم تسجيل الدخول بنجاح."
+      signed_out: "تم تسجيل الخروج بنجاح"
+    unlocks:
+      send_instructions: "سوف تصلك رسالة في بريدك الالكتروني لتوضح لك كيفية إعادة تفعيل حسابك في وقت قصير."
+      send_paranoid_instructions: "إذا كان حسابك موجودا بالفعل فسوف تصلك رسالة في بريدك الالكتروني مع تعليمات لكيفية إعادة تفعيل حسابك"
+      unlocked: "تم إعادة تفعيل حسابك بنجاح. لقد قمت بتسجيل دخولك الآن."
+  error: "عفوا. حدث خطأ ما. رجاء حاول مرة أخرى."
+  explore:
+    index:
+      categories: "التصنيفات"
+      expiring: "العد التنازلي النهائي"
+      quick_explore: "بحث سريع"
+      recent: "مؤخرا"
+      recommended: "مفضل" 
+      subtitle: "استعرض المشروعات. وانظر إلى ما يعجبك منها و حولها من خيال إلى واقع!"
+      successful: "ناجح"
+      title: "اكتشف مشروعات مدهشة"
+    title: "استعرض المشروعات"
+    project:
+      empty: "للأسف لم نجد أي مشروع بالنص الذي بحثت عنه. هل تريد تجربة كلمات جديدة؟ =D"
+  formtastic:
+    hints:
+      backer:
+        credits: "لديك <strong>%{credits}</strong> في حسابك. وبإمكانك الدعم في حدود هذا الرصيد دون الحاجة أن تدفع مجددا."
+        value: "قررت ما هو المبلغ ;) بداية من 10 دولارات فإن أي مبلغ هو أمر عظيم."
+      project:
+        about: "أخبرنا قليلا عما تريد أن تفعله. كم من المال تحتاج لفعله ولماذا. كن مختصرا ولكن لا تنس أن تعطي القراء شيئا يحركهم. وعلى كل حال فإن هذا هو إبداعك وهم يريدون شيئا يدل على ذلك."
+        category: "اختر في أي تصنيف تريد أن يظهر مشروعك. لا تقلق إذا شعرت أن مشروعك يمكن أن يندرج تحت أكثر من تصنيف. فقط اختر التصنيف الذي تريد الناس أن يجدوا مشروعك فيه."
+        expires_at: "في النهاية اختر كم من الوفت تريد أن يستمر مشروعك. مجددا فإن هذا خيار استراتيجي. فإذا اخترت مدة طويلة فإن الناس سيفقدون الاهتمام بمشروعك. وإذا اخترت وقتا قصيرا للغاية فربما لن تستطيع أن تصل للحد الأدنى في الوقت المحدد."
+        goal: "فكر بعمق حول المبلغ الذي تطلبه. ينبغي أن يكون </strong>الحد الأدنى اللازم لتحقيق المشروع<strong>. لا أكثر ولا أقل من المبلغ اللازم. فإذا سألت الكثير من المال فإن فرصك في الحصول عليه ستكون محدودة. وإذا لم تطلب المال الكافي فلن تكون قادرا على تنفيذ المشروع وبالتالي سوف تدمر سمعتك وستعيق إنجازاتك في المستقبل."
+        headline: "لخص مشروعك في 140 حرفا. هذه الجملة ستكون الأولى التي يقابلها الناس في مشروعك وقبل حتى مشاهدة الفيديو. كن مبدعا واضحا ومباشرا :)"
+        name: "ما اسم مشروعك؟ اختره بعناية لأنه سينعكس على فرص مشروعك في الوصول للهدف."
+        video_url: "الصق الرابط من <a href=\"http://vimeo.com\" target=\"_blank\">Vimeo</a> فيديو. لقد اخترنا Vimeo لأن الموقع يبدو أنيقا وبدون إعلانات. وبهذه الطريقة فإن موقعك سيبدو أفضل كذلك! <strong>أنتج الفيديو بأفضل ما تستطيع واجعله خصيصا لحملتك</strong>. إذا كان هناك شئ واحد يميز المشروعات التي تصل لهدفها عن المشروعات الأخرى، فإنه الفيديو. لذا فلاحظ ذلك جيدا ;)"
+      reward:
+        description: "صف مكافأتك بطريقة تحفز الناس لدعم مشروعك. لا تكن خجولا!"
+        maximum_backers: "إذا كانت مكافأتك محدودة فأخبرنا عن الداعم الأكبر."
+        minimum_value: "هذه هي القيمة الصغرى لاختيار هذه المكافأة."
+    labels:
+      backer:
+        anonymous: "أريد أن أجعل دعمي مخفيا / مجهولا"
+        credits: "أريد استخدام حسابي في هذا الدعم."
+        reward: "اختر مكافأتك."
+        value: "بكم تريد أن تدعم؟"
+      comment:
+        comment: "اترك تعليقكك عن هذا المشروع"
+      project:
+        about: "عن مشروعك"
+        expires_at: "ما هو الموعد النهائي للوصول لهدفك؟"
+        goal: "كم تحتاج؟"
+        name: "اكتب اسم مشروعك هنا"
+        video_url: "رابط الفيديو"
+      reward:
+        maximum_backers: "الحد الأقصى للداعمين (اختياري)"
+    optional: " (اختياري)"
+  found_plural: "موجود"
+  found_singular: "موجود"
+  here: here
+  i_backed: "لقد دعمت مشروع %{name} على @Oonkom"
+  i_just_backed: "لقد دعمت مشروع %{name} للتو على @Oonkom"
+  layouts:
+    login:
+      login_with_facebook: "تسجيل الدخول باستخدام حساب facebook?"
+      remember_me: "تذكرني واجعلني متصلا."
+    header:
+      blog: "المدونة"
+      help: "المساعدة"
+      signup: "التسجيل"
+      signin:  "الدخول"
+      explore: "تصفح"
+      submit_project: "ارسل المشروع"
+      profile: "ملفي الشخصي"
+      account: " حسابي"
+    recommended_header:
+      sugest_for_you: "اخترنا لك"
+      highlight_project: "مشروع متميز"
+    user:
+      logout: "تسجيل الخروج"
+      my_credits: "حسابي"
+  not_informed: "لم يخبر"
+  notify_locale: "لقد حددنا لغتك عن طريق متصفحك. إذا كنت تفضل لغة أخرى فانقر على أحد الأعلام على اليمين."
+  on_the_spot:
+    cancel: "إلغاء"
+    ok: "حسنا"
+    tooltip: "انقر للتعديل..."
+  passwords:
+    edit:
+      label_new_password: "كلمة مرور جديدة"
+      submit: "تغيير كلمة المرور"
+      title: "استعادة كلمة المرور"
+      site_title: "تغيير كلمة المرور"
+      subtitle: "لقد طلبت أن تستعيد كلمة المرور. ادخل كلمة المرور الجديدة بالأسفل وانقر \"تغيير كلمة المرور\". إذا لم تقم بطلب استعادة كلمة المرور فقط اترك هذه الصفحة كما هي وستظل كلمة مرورك كما هي."
+    email:
+      content_html: " <p>طلب شخص ما الحصول على رابط لاستعادة كلمة المرور الخاصة بك. يمكنك فعل ذلك من خلال هذا الرابط</p><p>%{link}</p><p>إذا لم يكن أنت من طلب ذلك فرجاء تجاهل هذه الرسالة.</p><p>لن يتم تغيير كلمة المرور الخاصة بك إلا بعد نقرك على الرابط في الأعلى.</p> "
+      title: "تعليمات استعادة كلمة المرور."
+    new:
+      submit: "أرسل تعليمات استعادة كلمة المرور."
+      title: "هل نسيت كلمة المرور؟"
+      site_title: "استعادة كلمة المرور"
+  payment_stream:
+    thank_you:
+      error: "عفوا. يمكنك زيارة هذه الصفحة بعد دعمك لمشروع فقط."
+      header_subtitle: "بدونك ربما لم يكن لهذا المشروع أن يكون. أهلا بك إلى الفريق!"
+      header_title: "شكرا! :D"
+      text_subtitle: "أخبر الجميع عما فعلته للتو."
+      text_title_html: "أنت الآن عضو في الفريق الذي يجعل كل شئ في  %{link} يتحقق."
+      title: "شكرا"
+  project:
+    start:
+      email_subject: "لقد تم استلام مشروعك بواسطة فريق عونك."
+      email_text: "شكرا لثقتك في عونك لتحقيق مشروعك :)<br><br>نعلم أنك تتوقع ردا سريعا على طلبك. ولكن لنكون صرحاء فنحن نستغرق 4 أيام للرد على طلبك. حسنا؟  هذا لأننا فريق صغير يعمل على العديد من المشروعات. لاحظ أن الرد على طلبك قد يكون في وقت أقل من ذلك. لذا ابق مطلعا على بريدك الالكتروني.<br><br>في الوقت الحالي قد تجد مفيدا أن تطلع على المشروعات الأخرى (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) وإذا أعجبك أي منها فقم بدعمها! وهذه هي الطريقة لدعم المنظومة التي تنمو مع دعمك.<br><br>وباالإضافة لذلك فسوف تجد المزيد من الإلهام لمشروعك...<br><br>ابق مطلعا على التحديثات على <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> وتعرف على عونك بعمق أكبر بقراءة تدويناتنا على <a href='%{blog}' style='color: #E75297 !important;'>المدونة</a>.<br><br>إذا واجهتك أي مشاكل اتصل بنا على: %{email}"
+      notification_text: "تم استلام مشروعك بواسطة فريق عونك."
+    finish:
+      successful:
+        email_subject: "يا للفرحة! المشروع الذي دعمته على عونك كان ناجحا!"
+        email_text: "المشروع %{project_link} -الذي دعمته- كان ناجحا على عونك! إنه وقت الاحتفال :D<br><br>شكرا جزيلا لك لدعمك لهذا المشروع الناجح! فلولاك ما كان ليكون هذا النجاح. قريبا %{user_link} سوف يتصل بك ليعطيك مكافأتك. في الوقت الحالي شارك الجميع فرحة هذا النجاح!"
+        facebook_text: "يا للفرحة! مشروع '%{name}', الذي دعمته كان ناجحا على عونك!"
+        notification_text: "يا للفرحة! مشروع %{link} الذي دعمته كان ناجحا! انشر هذا الخبر!"
+        reward_notification_text: "قريبا, %{link} سوف يتواصل معك للحصول على مكافأتك! استمتع بها!"
+        twitter_text: "يا للفرحة! مشروع '%{name}', الذي دعمته كان ناجحا على @Oonkom ! %{short_url}"
+      unsuccessful:
+        email_subject: "المشروع الذي دعمته لم يمول على عونك."
+        email_text: "مشروع %{project_link}, الذي دعمته لم يتم تمويله. ربما في المرة القادمة!<br><br>ولهذا السبب فقد حصلت على <strong>%{value}</strong> في رصيدك لدعم مشروعات أخرى. إذا كنت تفضل ذلك فيمكمك طلب سحب  %{credits_link}."
+        notification_text: "لقد استلمت %{value} في رصيدك لدعم مشروعات أخرى. إذا كنت تفضل ذلك يمكنك طلب سحب  %{link}."
+        unsuccessful_text: "مشروع %{link} الذي دعمته لم يكن ناجحا. ربما في المرة القادمة!"
+    verify_if_video_exists_on_vimeo: "يجب أن يكون على Vimeo"
+    vimeo_regex_validation: "مسموح فقط بروابط Vimeo"
+    display_status:
+      expired: "لم يتم تمويله"
+      successful: تم تمويله
+      waiting_confirmation: ينتظر
+  projects:
+    box:
+      by: "بواسطة"
+    admin_fields:
+      title: "حقول المشرف"
+    back_project:
+      project_warning:
+        not_successful:
+          expired: "لم يصل المشروع لهدفه %{goal} حتى %{date} لذا فلم يتم تمويله"
+          not_expired: "سيتم دعم المشروع إذا وصل إلى %{goal} في غضون %{date}"
+        successful:
+          expired: "هذا المشروع كان ناجحا وتم تمويله في %{date}"
+          not_expired: "هذا المشروع سيكون ناجحا وسيتم تمويله في %{date}"
+        waiting_confirmation: "بانتظار التأكيد من قسم المدفوعات لمعرفة ما إذا سيتم تمويل هذا المشروع أم لا."
+      reached_of: "وصل إلى"
+      submit: "ادعم هذا المشروع"
+    backer:
+      anonymous_backer: "داعم مجهول"
+      anonymous_description: "اختار البقاء مجهولا"
+      no_reward: "هذا الداعم لم يحصل على مكافأة."
+    backers:
+      checkout:
+        moip_error: "عفوا. حدثت مشكلة أثناء ارسال مكافأتك إلى PayPal. الرجاء المحاولة مرة أخرى."
+        no_credits: "ليس لديك رصيد كافي لدعم هذا المشروع."
+        paypal_cancel: "دفعك عن طريق PayPal تم الغاءه. الرجاء المحاولة مرة أخرى."
+        paypal_description: "ادعم مشروع"
+        paypal_error: "عفوا! حدث خطأ ما أثناء ارسال مكافأتك عبر PayPal. الرجاء المحاولة مرة أخرى."
+        success: "وصل دعمك بنجاح. شكرا لك!"
+      new:
+        cannot_back: "ليس ممكنا دعم هذا المشروع الآن. الرجاء دعم مشروعات أخرى."
+        header:
+          subtitle: "أنت على بعد خطوات من تحقيق التغيير واشتراكك في هذا المشروع."
+          title: "نعم نعم!"
+        no_reward: "شكرا. أريد فقط دعم هذا المشروع."
+        submit: "راجع الدعم وتوجه إلى الدفع"
+        title: "دعم %{name}"
+      review:
+        credits_notice_html: "هذا الدعم سيتم دفعه من خلال حسابك. وسيكون رصيدك بعده <strong>%{credits}</strong> في حسابك لدعم مشاريع أخرى."
+        error: "عفوا. حدث خطأ ما أثناء تسجيل دعمك. الرجاء المحاولة مرة أخرى."
+        international:
+          description: "يمكنك استخدام PayPal للدفع دوليا."
+          important_html: "<p>استخدام PayPal موجه بشكل كبير للدفع عالميا. يرجع ذلك إلى أن لديك 60 يوما فقط لتلقي سحبك نهائيا دون أن تدفع أي رسوم.</p><p>إذا استطعت الدفع بصورة طبيعية من خلال eBanks, فنحن نفضل أن تفعل ذلك.</p><p>ولكن إن لم يكن ذلك متاحا فلا تقلق فسوف تكون قادرا على تلقي مالك مرة أخرى. فقط في حالة قمت بالسحب بعد 60 يوما من تاريخ الدفع فيجب عليك أن تدفع رسوما لـ PayPal وهي كالتالي  5,4% + $0.60 لكل تحويل.</p>"
+          submit: "تقدم للدقع عن طريق PayPal"
+          title: "هل تريد أن تدفع دوليا؟"
+        review_with_reward_html: "سوف تدعم بقيمة <strong>%{value}</strong> وتحصل على المكافأة التالية: <span class='reward'>%{reward}</span>"
+        review_without_reward_html: "سوف تدعم بقيمة <strong>%{value}</strong> ولكنك لا تريد الحصول على مكافأة مقابل ذلك."
+        submit:
+          credits: "تأكيد الدعم من الرصيد"
+          moip: "تقدم إلى الدفع عن طريق PayPal"
+        subtitle: "هذه هي الخطوة الأخيرة لإجراء التغييرات وتصبح عضوا في المشروع."
+        title: "أدخل وراجع بياناتك"
+        choose_payment: "كيف تريد أن تدفع؟"
+        choose_credit_card: "بطاقة ائتمان"
+        choose_boleto: "خدمة المصرف"
+        you_are_about_html: "أنت على وشك أن تكون عضوا في الفريق الذي يجعل كل شئ يحدث في %{link} ممكنا."
+    create:
+      success: "تم انشاء مشروعك بنجاح. سوف نتصل بك قريبا. شكرا جزيلا!"
+    form:
+      add_reward: "أضف مكافأة"
+      important_html: "الرجاء مراعاة أن استخدامك لـ عونك سوف تكلفك  7.5% إذا كان مشروعك ناجحا وأن طرق الدفع لدينا  (eBanks و Paypal) تكلف أيضا رسوما تكون عادة ما بين  4% إلى 5% لكل تحويل. أضف هذه الرسوم إلى حسابات مشروعك حتى لا تواجه مفاجاءات أثناء تنفيذه."
+      project_warning:
+        content_html: "هل تريد أن يتم اختيار مشروعك؟ اقرأ %{link}."
+        help_link: "دليلنا"
+      rewards_description: "نحن نؤمن بأن أفضل طريقة لتحفيز الناس لدعم مشروع ما هي عرض مكافاءات رائعة. فالكل يحبون الإصدارات المحدودة - الأشياء الفريدة والتجارب المبهجة (الحفلات, الحلوى, السفر بالمنطاد!). استغل بعض الوقت في التفكير في ما قد يجعل الناس مهتمين بمكافاءاتك غير التقليدية والخلاقة."
+      rewards_title: المكافاءات
+      submit: "التقدم بالمشروع"
+    index_header:
+      subtitle_html: "شارك في تمويل المشروعات لتصبح جزءا في مشروع كبير.<br/>فأنت الجزء المفقود من الأحجية."
+      title: "اجعل المشروعات التي تؤمن بها واقعا."
+    new:
+      subtitle: "لقد حان الوقت لجعل مشروعك واقعا! فنحن نريد أن نعرف ما هي قدراتك وماذا يمكن أن تفعل..."
+      title: "تقدم بمشروعك"
+    pending:
+      can_finish: "هل يمكن الانتهاء منه؟"
+      finished: "انتهى؟"
+      home_page: "الصفحة الرئيسية؟"
+      id: "الرقم التعريفي"
+      name: "الاسم"
+      no_projects: "لم نعثر على أي مشروعات."
+      order: "الطلب"
+      project: "المشروع"
+      slug: "بطئ" 
+      recommended: "مستحب?"
+      rejected: "مرفوض?"
+      submit: "ابحث"
+      title: "إدارة المشروع"
+      user: "المستخدم"
+      visible: "مرئي?"
+    pending_backers:
+      anonymous: "مجهول?"
+      confirmed: "مؤكد?"
+      credits: "استخدم رصيدا من قبل?"
+      id: "الرقم التعريفي"
+      key: "المفتاح"
+      no_backers: "لم يتم العثور على داعمين."
+      project: "المشروع"
+      refunded: "تم السحب؟"
+      requested_refund: "تم طلب السحب؟"
+      reward: "المكافأة"
+      submit: "ابحث"
+      title: "إدارة الداعمين"
+      total_backed: "دعم"
+      total_backers: "الداعمين"
+      total_backs: "دعم"
+      total_users: "المستخدمون"
+      user: "المستخدم"
+      value: "القيمة"
+    project:
+      backed: "تم دعمه"
+      reached: "وصل"
+    project_backers:
+      empty: "لم يتم دعم هذا المشروع من قبل. لماذا لا تكون الأول؟"
+    project_header:
+      subtitle_html: "مشروع بواسطة %{link}"
+      without_city: "مشروع في %{category_name}, بواسطة %{author}"
+      with_city: "مشروع في %{category_name}, بـ%{city}, بواسطة %{author}"
+    project_updates:
+      empty: "هذا المشروع ليس له تحديثات بعد. ولكن انتظر وسترى =D"
+      submit: "أرسل تحديث"
+      comment: "تحديث النص"
+      title: "عنوان التحديث"
+      destroy: "حذف التحديث"
+      destroy_confirmation: "هل تريد حذف التحديث?"
+    rewards:
+      reward_title: "لـ %{minimum} أو أكثر"
+      title: "ادعم واحصل على..."
+    send_mail:
+      success: "تم ارسال مشروعك بنجاح. شكرا جزيلا!"
+    show:
+      rejected: "هذا المشروع لم يتم اختياره بواسطة عونك. ربما في المرة القادمة! :)"
+      waiting: "هذا المشروع بانتظار الموافقة عليه وما إذا كان سيصبح متاحا على عونك ;)"
+      about_title: "عن المشروع"
+      menu:
+        about: "من نحن"
+        backers: "الداعمون"
+        comments: "التعليقات"
+        updates: "التحديثات"
+      share:
+        embed: "تضمين"
+        embed_title: "ضمن هذا المشروع في موقعك."
+        link: "الرابط"
+        link_title: "انشر الرابط"
+        take_a_look: "استعرض المشروع"
+        title: "كن جزءا من المشروع وانشره."
+    start:
+      about: "صف مشروعك وكم من المال تريد."
+      category: "تصنيف المشروع"
+      how_much_you_need: "كم من المال تريد أن تجمع؟"
+      about_hint: "أخبرنا عما تريد أن تفعله وكم تحتاج لذلك ولماذا. كن مختصرا وواضحا ولكن لا تنس أن تزود القارئ بشئ يجذب انتباهه. ففي النهاية هذا ابداعك وهم يريدون أن يروا هذا الابداع!"
+      contact: "اترك لنا بريدك الالكتروني كي نستطيع التواصل معك."
+      links: "أين نستطيع أن نجد المزيد عنك وعن مشروعك؟"
+      links_hint: "زودنا بروابط بقدر ما تستطيع كي نستطيع التعرف على مشروعك وتقييمه. ليس شرطا أن تكون أشياء رسمية فأي شئ يوضح المشروع مرحب به."
+      video: "هل لمشروعك فيديو؟"
+      video_hint: "رابط Vimeo"
+      twitter: "هل لديك حساب Twitter?"
+      facebook: "هل لديك حساب Facebook?"
+      blog: "هل لديك مدونة عن المشروع؟"
+      know_us_via: "كيف عرفت بـ عونك؟"
+      how_works: "كيف تحفز الداعمين لدفع المال لتمويل مشروعك؟"
+      project_warning:
+        content_html: "هل تريد أن نختار مشروعك؟ لا تنس قراءة %{link}."
+        help_link: "دليلنا"
+      rewards: "ما المكافاءات التي تود أن تعرضها؟"
+      rewards_hint: "نحن نؤمن بأن أفضل طريقة لتحفيز الناس لدعم مشروع ما هي عرض مكافاءات رائعة. فالكل يحبون الإصدارات المحدودة - الأشياء الفريدة والتجارب المبهجة (الحفلات, الحلوى, السفر بالمنطاد!). استغل بعض الوقت في التفكير في ما قد يجعل الناس مهتمين بمكافاءاتك غير التقليدية والخلاقة."
+      submit: "تقدم بالمشروع"
+      subtitle: "لقد حان الوقت لجعل مشروعك واقعا! فنحن نريد أن نعرف ما هي قدراتك وماذا يمكن أن تفعل..."
+      title: "تقدم بالمشروع"
+    twitter:
+      take_a_look: "اطلع على مشروع %{name} على @Oonkom"
+    video_embed:
+      a_project_by_html: "مشروع بواسطة %{link} على"
+  projects_mailer:
+    start_project_email:
+      subject: "مشروع مرسل بواسطة %{name}"
+      subject_html: "مشروع مرسل بواسطة %{link}"
+  registrations:
+    new:
+      site_title: "التسجيل"
+      submit: "التسجيل"
+      title: "التسجيل بواسطة بريدك الالكتروني"
+  remaining_plural: "الباقي"
+  remaining_singular: "الباقي"
+  remove: remove
+  require_admin: "يجب أن تكون مشرفا لتقوم بهذه العملية."
+  require_login: "يجب أن تسجل دخولك لتقوم بهذه العملية."
+  require_permission: "أنت لا تملك التصريح للقيام بهذه العملية."
+  reward:
+    display_remaining: "%{remaining} من %{maximum} متاح"
+    dont_want: "لا أريد مكافأة"
+    limited: "محدود"
+    sold_out: "نفدت"
+  sessions:
+    auth:
+      success: "تم تسجيل الدخول بنجاح. مرحبا بك يا %{name}!"
+    destroy:
+      success: "تم تسجيل الخروج بنجاح. إلى اللقاء!"
+    failure:
+      error: "حدث خطأ ما أثناء تسجيل الدخول. الرجاء المحاولة مرة أخرى."
+  site:
+    host: "oonek.com"
+    base_url: "http://oonek.com"
+    blog: "http://blog.oonkom.com/"
+    email:
+      contact: "contact@oonkom.com"
+      payments: "payments@oonkom.com"
+      projects: "projects@oonkom.com"
+      system: "system@oonkom.com"
+    facebook: "http://www.facebook.com/oonkom"
+    name: "عونك"
+    title: "أول خدمة لتمويل المشاريع من العالم العربي"
+    twitter: "Oonkom"
+  static:
+    faq:
+      title: "الأسئلة الشائعة"
+    guidelines:
+      accept: "لقد قرأت وفهمت كيف يعمل عونك"
+      submit: "أريد التقدم بطلب لمشروعي"
+      subtitle: "قبل التقدم بمشروعك. تعرف على كيفية عمل عونك"
+      title: "كيف يعمل عونك؟"
+    privacy:
+      title: "سياسة الخصوصية"
+    terms:
+      title: "شروط الاستخدام"
+  terms: "شروط الاستخدام"
+  user:
+    backs_text:
+      many: "قام بدعم هذا المشروع و %{total} مشروع / مشروعات أخرى"
+      one: "قام بدعم هذا المشروع فقط حتى الوقت الحالي"
+      two: "قام بدعم هذا المشروع ومشروع واحد آخر فقط"
+    no_name: "بدون اسم"
+  users:
+    show:
+      tabs:
+        backed_projects: "المشروعات المدعومة"
+        created_projects: "المشروعات المنشأة"
+        comments: "التعليقات"
+        credits: "الرصيد"
+        settings: "الإعدادات"
+    backs:
+      anonymous: "دعم من مجهول."
+      no_backs: "%{name} لم يقم بدعم أي مشروعات بعد. ولكننا نعلم أنها مجرد مسألة وقت! :D"
+      no_backs_current_user_html: "أنت لم تقم بدعم أي مشروع بعد. ماذا عن <a href=\"/\">البدء الآن</a>?"
+      no_reward: "أنت لم تختر مكافأة"
+      title: "مشروعات %{name} دعمها"
+      title_current_user: "مشروعات قمت بدعمها"
+      your_reward: "مكافأتك"
+    current_user_fields:
+      updated: "تم تحديث بياناتك"
+      update_social_info: "تحديث البيانات"
+      social_info: "بيانات الاتصال"
+      twitter: "twitter ( username )"
+      facebook_link: "رابط الحساب الشخصي على facebook"
+      other_link: "صفحة ويب أخرى"
+      change_password: "تغيير كلمة المرور"
+      current_password_hint: "<i>نحتاج كلمة المرور الحالية كي تتمكن من تغيير كلمة المرور.</i>"
+      email_hint: "سيتم استخدام بريدك الالكتروني للتواصل مع عونك ومع المشروعات التي تدعمها. ولن يظهر في ملفك الشخصي. عندما تقوم بدعم مشروع ما فسوف نزود مالك المشروع ببريدك الالكتروني كي يستطيع إرسال المكافأة إليك."
+      email_tooltip: "انقر هنا لإدخال بريدك الالكتروني..."
+      gravatar_hint_html: "هل تريد تغيير صورتك؟ استخدم %{link} مع بريدك الالكتروني. فقط قم برفع صورتك وسوف تعمل هذه الطريقة لمواقع أخرى كذلك ;)"
+      my_data: "ملفي الشخصي"
+      newsletter: "أريد استلام رسائل بريد الكتروني من عونك."
+      password_hint: "<i>اتركها فارغة إذا كنت لاتريد تغيير كلمة المرور.</i>"
+    header:
+      bio_tooltip: "انقر هنا كي تكتب عن نفسك..."
+      name_tooltip: "انقر هنا لتكتب اسمك..."
+    projects:
+      no_projects: "%{name} لم يبدأ أي مشروع على عونك بعد. نحن نتساءل ما إذا كان الإلهام سينزل عليه في هذه الأيام!"
+      no_projects_current_user_html: "أنت لم تقم بتقديم طلب لأي مشروعات على عونك بعد. اترك الإلهام ينبعث %{link} كي تبدأ!"
+      title: "مشروعات %{name}"
+      title_current_user: "مشروعاتي"
+  users_mailer:
+    notification_email:
+      alt: "يجب عليك إظهار الصور كي ترى هذه الرسالة بصورة سليمة."
+      forward: "مرر إلى أصدقائك"
+      hello: "مرحبا"
+      intro: "أنت تتلقى هذه الرسالة لأنك قمت بالتسجيل في عونك"
+      mailee: "تم توصيل الرسالة بواسطة Mailee.me"
+      salutation: "تحياتي الحارة,"
+      signature: "فريق عونك"
+      unsubscribe: "إلغاء الاشتراك"
+      unsubscribe_long: "إذا كنت لا تريد استقبال هذه الرسائل."
+      weblink: "اعرضها على الانترنت"
+      whitelist: "إضافة جهة اتصال"
+      whitelist_long: "أضف بريدنا الالكتروني إلى جهات اتصالك."

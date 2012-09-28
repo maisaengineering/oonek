@@ -1,0 +1,2 @@
+=form_tag change_category_path,:method => "get", :remote => true do
+	=select_tag(:main, options_for_select(Category.all.collect {|p| p.name}), :prompt => "Select Category", :onchange => 'this.form.submit();')

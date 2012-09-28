@@ -1,0 +1,45 @@
+ar:
+  active_admin:
+    dashboard: "لوحة التحكم"
+    dashboard_welcome:
+      welcome: "مرحبا بكم في لوحة التحكم. هذه هي لوحة التحكم القياسية."
+      call_to_action: "لإضافة أقسام أخرى للوحة التحم افحص  'app/admin/dashboards.rb'"
+    view: عرض
+    edit: تحرير
+    delete: حذف
+    delete_confirmation: "هل أنت متأكد من أنك تريد حذف هذا العنصر؟"
+    new_model: "جديد(a) %{model}"
+    create_model: "إنشاء(a) %{model}"
+    edit_model: "تحرير %{model}"
+    update_model: "تحديث %{model}"
+    delete_model: "حذف %{model}"
+    details: "التفاصيل عن (a) %{model}"
+    cancel: إلغاء
+    empty: إفراغ
+    previous: السابق
+    next: التالي
+    download: "تحميل:"
+    has_many_new: "إضافة جديد(a) %{model}"
+    has_many_delete: حذف
+    filter: تصفية النتائج
+    clear_filters: "حذف التصفيات"
+    search_field: "البحث في %{field}"
+    equal_to: "مساوي لـ"
+    greater_than: "أكبر من"
+    less_than: "أقل من"
+    main_content: "رجاء استخدم %{model}#main_content لعرض المحتوى."
+    logout: تسجيل الخروح
+    sidebars:
+      filters: التصفيات
+    pagination:
+      empty: "لا يوجد(a) %{model} يطابق بحثك عن(a)"
+      one: "عرض <b>1</b> %{model}"
+      one_page: "عرض <b>الكل(as) كـ(as) %{n}</b> %{model}"
+      multiple: "عرض %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> من مجموع <b>%{total}</b>"
+      entry:
+        one: التسجيل
+        other: التسجيل
+    any: أي
+    blank_slate:
+      content: "لا تزال هناك %{resource_name}."
+      link: "إنشاء"

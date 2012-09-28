@@ -1,0 +1,209 @@
+ar:
+  date:
+    abbr_day_names:
+      - الأحد
+      - الإثنين
+      - الثلاثاء
+      - الأربعاء
+      - الخميس
+      - الجمعة
+      - السبت
+    abbr_month_names:
+      - ~
+      - يناير
+      - فبراير
+      - مارس
+      - إبريل
+      - مايو
+      - يونيو
+      - يوليو
+      - أغسطس
+      - سبتمبر
+      - أكتوبر
+      - نوفمبر
+      - ديسمبر
+    day_names:
+      - الأحد
+      - الإثنين
+      - الثلاثاء
+      - الأربعاء
+      - الخميس
+      - الجمعة
+      - السبت
+    formats:
+      default: "%d/%m/%Y"
+      long: %B "%d  %Y"
+      short: %B "%d"
+    month_names:
+      - 
+      - يناير
+      - فبراير
+      - مارس
+      - إبريل
+      - مايو
+      - يونيو
+      - يوليو
+      - أغسطس
+      - سبتمبر
+      - أكتوبر
+      - نوفمبر
+      - ديسمبر
+    order:
+      - :الشهر
+      - :اليوم
+      - :السنة
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: "حوالي ساعة واحدة"
+        other: "حوالي %{count} ساعات"
+      about_x_months:
+        one: "حوالي شهر واحد"
+        other: "حوالي %{count} أشهر"
+      about_x_years:
+        one: "حوالي عام واحد"
+        other: "حوالي %{count} أعوام"
+      almost_x_years:
+        one: "تقريبا عام واحد"
+        other: "تقريبا %{count} أعوام"
+      half_a_minute: "ثلاثون ثانية"
+      less_than_x_minutes:
+        one: "أقل من دقيقة"
+        other: "أقل من %{count} دقائق"
+      less_than_x_seconds:
+        one: "أقل من ثانية"
+        other: "أقل من %{count} ثواني"
+      over_x_years:
+        one: "أكثر من عام واحد"
+        other: "أكثر من %{count} أعوام"
+      x_days:
+        one: "يوم واحد"
+        other: "%{count} أيام"
+      x_minutes:
+        one: "دقيقة واحدة"
+        other: "%{count} دقائق"
+      x_months:
+        one: "شهر واحد"
+        other: "%{count} أشهر"
+      x_seconds:
+        one: "ثانية واحدة"
+        other: "%{count} ثواني"
+    prompts:
+      day: اليوم
+      hour: الساعة
+      minute: الدقيقة
+      month: الشهر
+      second: الثانية
+      year: العام
+  errors: &errors
+    format: "%{attribute} %{message}"
+    messages:
+      accepted: "يجب أن يتم قبوله"
+      blank: "لا يمكن أن يكون فارغا"
+      confirmation: "لا تطابق"
+      empty: "لا يمكن أن يكون فارغا"
+      equal_to: "يجب أن يساوي %{count}"
+      even: "يجب أن يكون زوجيا"
+      exclusion: "غير متاح"
+      greater_than: "يجب أن يكون أكبر من %{count}"
+      greater_than_or_equal_to: "يجب أن يكون أكبر من أو يساوي %{count}"
+      inclusion: "غير موجود بالقائمة"
+      invalid: "غير صالح"
+      less_than: "يجب أن يكون أقل من %{count}"
+      less_than_or_equal_to: "يجب أن يكون أقل من أو يساوي %{count}"
+      not_a_number: "ليس رقما"
+      not_an_integer: "ليس رقما صحيحا"
+      odd: "يجب أن يكون فرديا"
+      record_invalid: "فشل أثناء عملية التحقق: %{errors}"
+      taken: "تم استخدامه من قبل"
+      too_long: "طويل للغاية (الحد الأقصى: %{count} حروف)"
+      too_short: "قصير للغاية (الحد الأدنى: %{count} حروف)"
+      wrong_length: "ليس الطول المتوقع (%{count} حروف)"
+    template:
+      body: "الرجاء تفقد الحقول التالية:"
+      header:
+        one: "لم يمكن كتابة %{model}: خطأ واحد"
+        other: "لم يمكن كتابة %{model}: %{count} أخطاء."
+  helpers:
+    select:
+      prompt: "الرجاء اختيار"
+    submit:
+      create: "إنشاء %{model}"
+      submit: "التقدم بـ %{model}"
+      update: "تحديث %{model}"
+  number:
+    currency:
+      format:
+        delimiter: ","
+        format: "%u %n"
+        precision: 2
+        separator: "."
+        significant: false
+        strip_insignificant_zeros: false
+        unit: USD$
+    format:
+      delimiter: "."
+      precision: 3
+      separator: ","
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion:
+            one: مليار
+            other: مليار
+          million:
+            one: مليون
+            other: مليون
+          quadrillion:
+            one: كوادريليون
+            other: كوادريليون
+          thousand: ألف
+          trillion:
+            one: تريليون
+            other: تريليون
+          unit: ~
+      format:
+        delimiter: "."
+        precision: 2
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: بايت
+            other: بايت
+          gb: جيجا بايت
+          kb: كيلو بايت
+          mb: ميجا بايت
+          tb: تيرا بايت
+    percentage:
+      format:
+        delimiter: "."
+    precision:
+      format:
+        delimiter: "."
+  support:
+    array:
+      last_word_connector: " و "
+      two_words_connector: " و "
+      words_connector: "، و "
+  time:
+    am: صباحا
+    formats:
+      simple: "%m/%d/%Y, %H:%M h"
+      default: "%A, %d de %B de %Y, %H:%M h"
+      long: "%A, %d de %B de %Y, %H:%M h"
+      short: "%m/%d, %H:%M h"
+      updates: "%d %b %Y"
+    pm: مساء
+  # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
+    activemodel:
+      errors:
+        <<: *errors
+    activerecord:
+      errors:
+        <<: *errors
