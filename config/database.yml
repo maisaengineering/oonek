@@ -6,8 +6,8 @@ development:
   encoding: utf-8
   database: oonek_dev
   pool: 5
-  username: postgres
-  password: maisa
+  username: pride
+  password: 
   host: localhost
   port: 5432 
 
